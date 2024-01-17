@@ -1,0 +1,6 @@
+C:/Users/clear/Desktop/ray-tracer/out/build/x64-Debug/CMakeFiles/ALL_BUILD.dir
+C:/Users/clear/Desktop/ray-tracer/out/build/x64-Debug/CMakeFiles/ZERO_CHECK.dir
+C:/Users/clear/Desktop/ray-tracer/out/build/x64-Debug/third_party/tinygltf/CMakeFiles/ALL_BUILD.dir
+C:/Users/clear/Desktop/ray-tracer/out/build/x64-Debug/third_party/imgui/CMakeFiles/ImGui.dir
+C:/Users/clear/Desktop/ray-tracer/out/build/x64-Debug/third_party/glad/CMakeFiles/Glad.dir
+C:/Users/clear/Desktop/ray-tracer/out/build/x64-Debug/rt/CMakeFiles/ray-tracer.dir

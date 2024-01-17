@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F9E5B1C5-694C-314A-9B95-DB544F4AE043}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 12.3.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\clear\Desktop\ray-tracer\out\build\x64-Debug\CMakeFiles\6a59f8316ec1a7540d2ef8f81535616c\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/clear/Desktop/ray-tracer -BC:/Users/clear/Desktop/ray-tracer/out/build/x64-Debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/clear/Desktop/ray-tracer/out/build/x64-Debug/ray_tracer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCUDAInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Compiler\NVIDIA-CUDA.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows-NVIDIA-CUDA.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\cmake\cub\cub-config-version.cmake;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\cmake\cub\cub-config.cmake;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\cmake\cub\cub-header-search.cmake;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\cmake\libcudacxx\libcudacxx-config-version.cmake;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\cmake\libcudacxx\libcudacxx-config.cmake;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\cmake\libcudacxx\libcudacxx-header-search.cmake;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\cmake\thrust\thrust-config-version.cmake;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\cmake\thrust\thrust-config.cmake;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\cmake\thrust\thrust-header-search.cmake;C:\Users\clear\Desktop\ray-tracer\CMakeLists.txt;C:\Users\clear\Desktop\ray-tracer\out\build\x64-Debug\CMakeFiles\3.27.2-msvc1\CMakeCCompiler.cmake;C:\Users\clear\Desktop\ray-tracer\out\build\x64-Debug\CMakeFiles\3.27.2-msvc1\CMakeCUDACompiler.cmake;C:\Users\clear\Desktop\ray-tracer\out\build\x64-Debug\CMakeFiles\3.27.2-msvc1\CMakeCXXCompiler.cmake;C:\Users\clear\Desktop\ray-tracer\out\build\x64-Debug\CMakeFiles\3.27.2-msvc1\CMakeRCCompiler.cmake;C:\Users\clear\Desktop\ray-tracer\out\build\x64-Debug\CMakeFiles\3.27.2-msvc1\CMakeSystem.cmake;C:\Users\clear\Desktop\ray-tracer\rt\CMakeLists.txt;C:\Users\clear\Desktop\ray-tracer\third_party\CMakeLists.txt;C:\Users\clear\Desktop\ray-tracer\third_party\glad\CMakeLists.txt;C:\Users\clear\Desktop\ray-tracer\third_party\half\CMakeLists.txt;C:\Users\clear\Desktop\ray-tracer\third_party\imgui\CMakeLists.txt;C:\Users\clear\Desktop\ray-tracer\third_party\tinygltf\CMakeLists.txt;D:\Vcpkg\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;D:\Vcpkg\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;D:\Vcpkg\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;D:\Vcpkg\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;D:\Vcpkg\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;D:\Vcpkg\vcpkg\installed\x64-windows\share\glm\glm-config.cmake;D:\Vcpkg\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clear\Desktop\ray-tracer\out\build\x64-Debug\CMakeFiles\generate.stamp;C:\Users\clear\Desktop\ray-tracer\out\build\x64-Debug\third_party\CMakeFiles\generate.stamp;C:\Users\clear\Desktop\ray-tracer\out\build\x64-Debug\third_party\tinygltf\CMakeFiles\generate.stamp;C:\Users\clear\Desktop\ray-tracer\out\build\x64-Debug\third_party\half\CMakeFiles\generate.stamp;C:\Users\clear\Desktop\ray-tracer\out\build\x64-Debug\third_party\imgui\CMakeFiles\generate.stamp;C:\Users\clear\Desktop\ray-tracer\out\build\x64-Debug\third_party\glad\CMakeFiles\generate.stamp;C:\Users\clear\Desktop\ray-tracer\out\build\x64-Debug\rt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 12.3.targets" />
+  </ImportGroup>
+</Project>

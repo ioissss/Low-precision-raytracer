@@ -1,0 +1,20 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/FindOpenGL.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/FindPackageMessage.cmake
+C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/lib/cmake/cub/cub-config-version.cmake
+C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/lib/cmake/cub/cub-config.cmake
+C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/lib/cmake/cub/cub-header-search.cmake
+C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/lib/cmake/libcudacxx/libcudacxx-config-version.cmake
+C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/lib/cmake/libcudacxx/libcudacxx-config.cmake
+C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/lib/cmake/libcudacxx/libcudacxx-header-search.cmake
+C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/lib/cmake/thrust/thrust-config-version.cmake
+C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/lib/cmake/thrust/thrust-config.cmake
+C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/lib/cmake/thrust/thrust-header-search.cmake
+C:/Users/clear/Desktop/ray-tracer/rt/CMakeLists.txt
+D:/Vcpkg/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake
+D:/Vcpkg/vcpkg/installed/x64-windows/share/glfw3/glfw3ConfigVersion.cmake
+D:/Vcpkg/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-debug.cmake
+D:/Vcpkg/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-release.cmake
+D:/Vcpkg/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets.cmake
+D:/Vcpkg/vcpkg/installed/x64-windows/share/glm/glm-config.cmake

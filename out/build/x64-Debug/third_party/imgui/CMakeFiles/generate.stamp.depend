@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Users/clear/Desktop/ray-tracer/third_party/imgui/CMakeLists.txt
+D:/Vcpkg/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake
+D:/Vcpkg/vcpkg/installed/x64-windows/share/glfw3/glfw3ConfigVersion.cmake
+D:/Vcpkg/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-debug.cmake
+D:/Vcpkg/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-release.cmake
+D:/Vcpkg/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets.cmake
