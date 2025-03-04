@@ -1,7 +1,7 @@
 # Ray Tracer
 
 ## Introduction
-
+基于CUDA和OpenGL的光线追踪渲染器，支持半精度浮点数和全精度浮点数运算。OpenGL用于收集GBuffer，CUDA用于执行追踪，着色，采样，降噪等所有操作。
 It is a ray tracer built upon CUDA and OpenGL, working on both float16 and float32. 
 OpenGL is used to generate gbuffer while CUDA is used to do anything else, including
 tracing, shading, samping and denoising.
