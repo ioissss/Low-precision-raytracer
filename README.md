@@ -6,6 +6,9 @@ It is a ray tracer built upon CUDA and OpenGL, working on both float16 and float
 OpenGL is used to generate gbuffer while CUDA is used to do anything else, including
 tracing, shading, samping and denoising.
 
+## 效果预览
+
+![image](https://github.com/user-attachments/assets/2db5aa54-6641-43ce-99ec-9c1560c76cbe)
 
 
 ## Components
